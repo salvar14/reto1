@@ -1,0 +1,111 @@
+
+body{
+    background: #ffffff;
+    font-family: 'Verdana';
+    padding: 0px;
+    margin: 30px;
+}
+
+.inputField{
+    border: 0px;
+    width: 200px;
+    padding: 3px;
+    border: 1px solid #333333;
+}
+
+.buttonStyle{
+    margin-top: 10px;
+    border: 0px;
+    width: 200px;
+    padding: 3px;
+    cursor: pointer;
+    height: 28px;
+}
+
+#menuInit{
+    display: none;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 520px;
+}
+#menuRegister{
+    display: none;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 520px;
+}
+
+.eachItemMenu{
+    float: left;
+    margin-right: 50px;
+    background:  #333333;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 8px;
+}.eachItemMenu p{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.eachItemMenu:hover{
+    background: #ffffff;
+    border: 1px solid #333333;
+    cursor: pointer;
+}.eachItemMenu:hover p{
+    color: #333333;
+}
+
+
+
+h3{
+    font-size: 1.3em;
+}
+
+article{
+    clear: both;
+    min-height: 400px;
+}
+#registerUser{
+    display: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#loginUser{
+    display: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#uploadImage{
+    display: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#listFiles{
+
+}#listFiles a{
+    color: #333333;
+}
+
+footer{
+    font-size: 0.8em;
+}
+
+#viewFrame{
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
